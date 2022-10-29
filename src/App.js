@@ -19,10 +19,11 @@ function App() {
           Learn React
         </a>
         <MessengerChat
-        pageId="109268111769502"
-        language="sv_SE"
+        pageId="107487991682672"
+        language="en_US"
         themeColor={"#000000"}
         bottomSpacing={300}
+        version="v15.0"
         loggedInGreeting="loggedInGreeting"
         loggedOutGreeting="loggedOutGreeting"
         greetingDialogDisplay={"show"}
