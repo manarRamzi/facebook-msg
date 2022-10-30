@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import { MessengerChat, showMessenger, hideMessenger, showDialog, hideDialog } from 'react-messenger-customer-chat';
 import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
 
 function App() {
