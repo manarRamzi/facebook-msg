@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { MessengerChat } from "react-messenger-chat-plugin";
+import { MessengerChat, showMessenger, hideMessenger, showDialog, hideDialog } from 'react-messenger-customer-chat';
+import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
 
 function App() {
   return (
@@ -18,35 +19,12 @@ function App() {
         >
           Learn React
         </a>
-        <MessengerChat
-        pageId="107487991682672"
-        language="en_US"
-        themeColor={"#000000"}
-        bottomSpacing={300}
-        version="v15.0"
-        loggedInGreeting="loggedInGreeting"
-        loggedOutGreeting="loggedOutGreeting"
-        greetingDialogDisplay={"show"}
-        debugMode={true}
-        onMessengerShow={() => {
-          console.log("onMessengerShow");
-        }}
-        onMessengerHide={() => {
-          console.log("onMessengerHide");
-        }}
-        onMessengerDialogShow={() => {
-          console.log("onMessengerDialogShow");
-        }}
-        onMessengerDialogHide={() => {
-          console.log("onMessengerDialogHide");
-        }}
-        onMessengerMounted={() => {
-          console.log("onMessengerMounted");
-        }}
-        onMessengerLoad={() => {
-          console.log("onMessengerLoad");
-        }}
-      />
+        <MessengerCustomerChat
+    pageId="107487991682672"
+    appId="984797232364697" 
+  
+  />
+     
       </header>
     </div>
   );
